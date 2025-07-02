@@ -28,7 +28,7 @@ jobs:
           # mdbook-version: '0.4.51'
           mdbook-version: 'latest'
       - run: cargo install mdbook-langtabs mdbook-alerts
-      - name Build mdBook
+      - name: Build mdBook
       - run: mdbook build
 
       - name: Upload artifact
