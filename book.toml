@@ -1,0 +1,16 @@
+[book]
+authors = ["drindr"]
+language = "zh"
+src = "src"
+title = "dora-by-examples"
+
+[output.html]
+fold.enable = true
+git-repository-url = "https://github.com/drindr/dora-by-examples"
+additional-css = ["assets/langtabs.css"]
+additional-js = ["assets/langtabs.js"]
+
+[preprocessor.langtabs]
+command = "mdbook-langtabs"
+
+[preprocessor.alerts]
