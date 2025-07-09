@@ -13,7 +13,7 @@
 <!-- langtabs-start -->
 ```Linux
 alias CXX='clang++' # CXX='g++'
-mkdir -p build
+mkdir build
 
 # 构建操作器
 CXX -c operator-c-api/operator.cc -std=c++17 -o operator-c-api/operator.o -fPIC
