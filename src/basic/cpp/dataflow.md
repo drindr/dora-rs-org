@@ -5,7 +5,7 @@
 > 关键词：C++, Node, Operator
 
 ## Dora相关包的准备
-[需要预先准备的包](./basic/cpp.md#需要预先准备的包)
+[需要预先准备的包](/basic/cpp.md#需要预先准备的包)
 官方样例中使用clang++进行编译，实测g++也是可以使用的，对于大部分的Linux发行版（如Ubuntu等）使用默认安装的g++即可。
 
 ## C API

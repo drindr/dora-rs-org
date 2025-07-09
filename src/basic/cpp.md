@@ -5,17 +5,17 @@
 需要从源码安装Dora，并且构建相关包：
 - 运行时
 ```bash
-$ cargo build -p dora-runtime
+$ cargo build -p dora-runtime --release
 ```
 - 如果需要使用C API
 ```bash
-$ cargo build -p dora-node-api-c
-$ cargo build -p dora-operator-api-c
+$ cargo build -p dora-node-api-c --release
+$ cargo build -p dora-operator-api-c --release
 ```
 - 如果需要使用Rust API
 ```bash
-$ cargo build -p dora-node-api-cxx
-$ cargo build -p dora-operator-api-cxx
+$ cargo build -p dora-node-api-cxx --release
+$ cargo build -p dora-operator-api-cxx --release
 ```
 
 如果对Rust与C++的混合编译感兴趣，可以参阅[cxx.rs](https://cxx.rs/)
