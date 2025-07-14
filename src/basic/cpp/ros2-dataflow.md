@@ -51,4 +51,4 @@ $ ros2 run examples_rclcpp_minimal_service service_main
 ```bash
 $ dora run dataflow.yml
 ```
-<p style="text-align:center"><video autoplay src="/images/c++-ros2.webm" alt="运行画面" width="90%" /></p>
+<p style="text-align:center"><video autoplay src="../../images/c++-ros2.webm" alt="运行画面" width="90%" /></p>

@@ -5,7 +5,6 @@ src = "src"
 title = "dora-by-examples"
 
 [output.html]
-site-url = "/dora-by-examples/"
 fold.enable = true
 git-repository-url = "https://github.com/drindr/dora-by-examples"
 additional-css = ["assets/langtabs.css"]

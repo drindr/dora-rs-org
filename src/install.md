@@ -48,7 +48,7 @@ $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh # 弹出选项�
 $ export PATH=$PATH:$HOME/.cargo/bin # 设置环境变量
 ```
 
-<p style="text-align:center"><img src="/images/rustup-installation.png" alt="rustup安装画面" width="75%"></p>
+<p style="text-align:center"><img src="images/rustup-installation.png" alt="rustup安装画面" width="75%"></p>
 
 ## 获取Dora源代码
 ```bash
