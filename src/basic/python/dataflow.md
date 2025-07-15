@@ -29,3 +29,14 @@ $ dora run dataflow.yml --uv
 默认的视图中可能只包含照片项，在弹出的`rerun`窗口中右键时间轴上的`/`项，点击添加到新的视图中
 
 <p style="text-align:center"><img src="../../images/python-dataflow.png" alt="运行效果" width="75%"></p>
+
+### 动态节点
+```bash
+$ dora build dataflow_dynamic.yml --uv # 安装所需要的节点
+$ dora up # 启动本地的 daemon 和 coordinator
+$ dora start dataflow_dynamic.yml --uv
+```
+在另外一个中端窗口运行
+```bash
+$ uv run opencv-plot --name plot
+```
