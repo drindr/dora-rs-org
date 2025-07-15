@@ -56,4 +56,5 @@
   - [基准测试](./others/benchmark.md)
   - [Python Arrow测试](./others/pyarrow-test.md)
 - [附录](./appendix.md)
+  - [词汇表](./appendix/glossary.md)
   - [ROS2安装](./appendix/ros2-installation.md)
