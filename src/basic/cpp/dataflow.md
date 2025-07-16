@@ -15,7 +15,7 @@
 alias CXX='clang++' # CXX='g++'
 mkdir build
 
-# 构建操作器
+# 构建算子
 CXX -c operator-c-api/operator.cc -std=c++17 -o operator-c-api/operator.o -fPIC
 CXX -shared operator-c-api/operator.o -ldora_operator_api_c -L../../target/debug/ -o ./build/liboperator_c_api.so
 
@@ -37,7 +37,7 @@ CXX node-c-api/main.cc -lm -lrt -ldl -pthread -L../../target/debug -ldora_node_a
 alias CXX='clang++' # CXX='g++'
 mkdir -p build
 
-# 构建操作器
+# 构建算子
 cp ../../target/cxxbridge/dora-operator-api-cxx/src/lib.rs.h ./build/dora-operator-api.h
 cp ../../target/cxxbridge/dora-operator-api-cxx/src/lib.rs.cc ./build/operator-bridge.cc
 CXX -c ./operator-rust-api/operator.cc -std=c++17 -I./operator-rust-api -o operator-rust-api/operator.o -fPIC
