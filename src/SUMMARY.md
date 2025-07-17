@@ -59,4 +59,4 @@
     - [词汇表](./dora-example/appendix/glossary.md)
     - [ROS2安装](./dora-example/appendix/ros2-installation.md)
 
-- [openloong](./openloop/menu.md)
+- [openloong](./openloong/menu.md)
