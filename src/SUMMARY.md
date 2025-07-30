@@ -59,8 +59,8 @@
     - [词汇表](./dora-example/appendix/glossary.md)
     - [ROS2安装](./dora-example/appendix/ros2-installation.md)
 
-- [OpenLoong]()
-  - [工作001](./openloong/001.md)
-  - [开发环境准备](./openloong/002.md)
-  - [openloong实例](./openloong/003.md)
+- [OpenLoong样例](./openloong/menu.md)
+  - [介绍](./openloong/intro.md)
+  - [开发环境准备](./openloong/install.md)
+  - [openloong实例](./openloong/examples.md)
 
