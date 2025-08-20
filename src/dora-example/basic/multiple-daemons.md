@@ -1,10 +1,36 @@
 # 多守护进程（Daemon）
 
-Dora规划的多守护进程通过协调器（Coordinator）完成调度。由于分布式的部分尚未完成/部分内容未稳定，在本地运行中多个守护进程的作用并不明显。
-详见：
-- [#256](https://github.com/dora-rs/dora/pull/256)
-- [#459](https://github.com/dora-rs/dora/issues/459)
-- [#535](https://github.com/dora-rs/dora/issues/535)
+> 地址：examples/multiple-daemons
+> 关键词：Daemon, Coordinator
 
-此样例暂不展开
-#TBD#
+Dora通过Coordinator来协调多个Daemon的运行。Daemon可以来自不同的机器。这是Dora分布式的基础。
+
+## 启动准备
+### 启动一个协调器（Coordinator）
+```bash
+$ dora coordinator
+```
+其运行ip与端口的绑定设置，可通过添加`--help`参数来查看，样例中用默认的设置即可。
+
+### 启动守护进程（Daemon）
+```bash
+$ dora daemon --machine-id A
+$ dora daemon --machine-id B
+```
+分别启动两个分别名为A和B的守护进程。
+可以通过`--coordinator-addr`和`--coordinator-port`来指定协调器的地址和端口。
+具体可以参考`dora daemon --help`。
+
+## 构建
+```bash
+$ dora build dataflow.yml
+```
+可以通过`--coordinator-addr`和`--coordinator-port`来指定协调器的地址和端口。
+具体可以参考`dora build --help`。
+
+## 运行
+``` bash
+$ dora start dataflow.yml
+```
+可以通过`--coordinator-addr`和`--coordinator-port`来指定协调器的地址和端口。
+具体可以参考`dora start --help`。
