@@ -5,7 +5,8 @@
   - [安装](./dora-example/install.md)
   - [基础](./dora-example/basic.md)
     - [echo](./dora-example/basic/echo.md)
-    - [多守护进程（Daemon）](./dora-example/basic/multiple-daemons.md)
+    - [分布式（多Daemon）](./dora-example/basic/multiple-daemons.md)
+    - [构建和启动](./dora-example/basic/build-and-launch.md)
     - [多语言混合编程](./dora-example/basic/multilang.md)
       - [C/C++](./dora-example/basic/cpp.md)
         - [数据流（Dataflow)](./dora-example/basic/cpp/dataflow.md)
@@ -63,4 +64,3 @@
   - [介绍](./openloong/intro.md)
   - [开发环境准备](./openloong/install.md)
   - [openloong实例](./openloong/examples.md)
-
