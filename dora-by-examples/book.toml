@@ -4,6 +4,7 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Dora-rs文档"
+description = "通过例子了解Dora（WIP）"
 
 [output.html]
 fold.enable = true
