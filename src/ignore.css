@@ -2,5 +2,5 @@
     display: none;
 }
 #page-wrapper {
-    margin-left: 0; /* Remove the left margin that accommodates the sidebar */
+    margin-left: 0!important; /* Remove the left margin that accommodates the sidebar */
 }
