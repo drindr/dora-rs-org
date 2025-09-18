@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - refactor/seperate-book
   # pull_request:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
