@@ -27,8 +27,12 @@ jobs:
           # mdbook-version: '0.4.51'
           mdbook-version: "latest"
       - run: cargo install mdbook-langtabs mdbook-alerts
-      - run: mdbook build
-
+      - run: cd dora-by-examples && mdbook build
+      - run: cd openloong && mdbook build
+      - run: |
+          mkdir ./book
+          cp -r ./dora-by-examples/book ./book/dora-by-examples
+          cp -r ./openloong/book ./book/openloong
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
