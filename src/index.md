@@ -1,1 +1,1 @@
-- [dora-rs书](https://dora-rs.ai/dora)：这本书包含了Dora的设计理念，可能部分内容较旧，但仍具参考价值
+- [dora-rs书](https://dora-rs.ai/dora) - 这本书包含了Dora的设计理念，可能部分内容较旧，但仍具参考价值
