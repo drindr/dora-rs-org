@@ -3,15 +3,9 @@ authors = ["Leon"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Dora-rs文档"
+title = "Dora-rs"
 
 [output.html]
-fold.enable = true
-git-repository-url = "https://github.com/drindr/dora-by-examples"
-additional-css = ["assets/langtabs.css"]
-additional-js = ["assets/langtabs.js"]
+git-repository-url = "https://github.com/dora-rs-org"
+additional-css = ["src/ignore.css"]
 
-[preprocessor.langtabs]
-command = "mdbook-langtabs"
-
-[preprocessor.alerts]

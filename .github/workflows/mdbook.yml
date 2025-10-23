@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - refactor/seperate-book
   # pull_request:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
@@ -27,7 +28,7 @@ jobs:
           # mdbook-version: '0.4.51'
           mdbook-version: "latest"
       - run: cargo install mdbook-langtabs mdbook-alerts
-      - run: mdbook build
+      - run: ./build.sh
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
